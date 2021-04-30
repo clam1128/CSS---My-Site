@@ -18,6 +18,10 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 
+.pfp{
+height: 300px;
+width: 300px;
+}
 .top-container {
   background-color: #F0ECE4;
   text-align: center;

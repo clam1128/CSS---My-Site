@@ -42,10 +42,11 @@ h3{
 }
 
 .middle-container {
+  margin: 0;
 }
 
 .bottom-container {
-
+  margin: 0;
 }
 
 .footericons {

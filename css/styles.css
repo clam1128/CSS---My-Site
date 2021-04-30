@@ -2,7 +2,18 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: #F0ECE4;
+}
+
+hr {
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+p{
+  color: #40514E;
 }
 
 h1 {
@@ -52,7 +63,7 @@ a {
 }
 
 .top-container {
-  background-color: #F0ECE4;
+  background-color: #EAF6F6;
   text-align: center;
   position: relative;
   padding-top: 100px;
@@ -87,6 +98,7 @@ a {
   bottom: 7.5%;
   width: 100%;
   text-align: center;
+  background-color:  #66BFBF;
 }
 
 .iconbtn {
@@ -150,6 +162,37 @@ a {
   }
 }
 
+.contact {
+
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #66BFBF;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
 /* COLOURS USED
 
 #156015 - Green
